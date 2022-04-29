@@ -3,7 +3,6 @@ const app = new Vue(
         el: '#app',
         data: {
             emailList: [],
-            emailNumber: 10
         },
         methods: {},
         mounted() {
