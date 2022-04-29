@@ -14,11 +14,11 @@
 </head>
 <body>
     <div id="app">
-        <header>
-            <i class="fa-solid fa-envelope"></i>
-            <h1>Email List</h1>
-         </header>
         <div class="container">
+            <header>
+                <i class="fa-solid fa-envelope"></i>
+                <h1>Email List</h1>
+             </header>
             <div class="email-list" v-for="email in emailList" v-if="">
                 <ul v-show="emailList.length === 10">
                     <li>CONTACT EMAIL: {{email}}</li>
