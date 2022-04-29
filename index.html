@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id="app">
-        <h1>Hello World</h1>
-        <div class="emails-list" v-for="email in emailList">
-            <ul>
+        <h1>Email List</h1>
+        <div class="emails-list" v-for="email in emailList" v-if="">
+            <ul v-show="emailList.length === emailNumber">
                 <li>{{email}}</li>
             </ul>
         </div>

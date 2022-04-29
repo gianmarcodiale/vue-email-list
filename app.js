@@ -2,7 +2,8 @@ const app = new Vue(
     {
         el: '#app',
         data: {
-            emailList: []
+            emailList: [],
+            emailNumber: 10
         },
         methods: {},
         mounted() {
